@@ -1,0 +1,14 @@
+.navbar{
+    opacity: 0.8;
+    border-bottom: 1px solid #fff;
+    ;
+}
+
+.jumbotron{
+    color: #fff;
+}
+
+main .card{
+	box-shadow: 2px 2px 5px 1px #666;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<title>Styling Links</title>
+	
+	<style>
+		
+		body{
+			font-family: 'Lato', sans-serif;
+		}
+
+		a
+		{
+			color: green;
+			text-decoration: none;
+		}
+		a:hover
+		{
+			color: red;
+			font-size: 20px;
+			text-decoration: underline;
+		}
+		.btn
+		{	
+			padding: 12px 30px;
+			border:none;
+			text-decoration: none;
+			font-size: 16px;
+		}
+		.primary
+		{
+			background-color: #007bff;
+			color: white;
+		}
+		
+		.secondary
+		{
+			background-color: #6c757d;
+			color: white;
+		}
+
+		.success
+		{
+			background-color: #28a745;
+			color: white;
+		}
+
+		.danger
+		{
+			background-color: #dc3545;
+			color: white;
+		}
+
+		.warning
+		{
+			background-color: #ffc107;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	
+	<a href="/link1" class="btn primary">primary</a>
+	<a href="/link2" class="btn secondary">secondary</a>
+	<a href="/link2" class="btn success">success</a>
+	<a href="/link2" class="btn danger">danger</a>
+	<a href="/link2" class="btn warning">warning</a>
+
+<br><br><br>
+	<button class="btn primary">primary</button>
+	<button class="btn secondary">secondary</button>
+	<button class="btn success">success</button>
+	<button class="btn danger">danger</button>
+	<button class="btn warning">warning</button>
+
+	
+	
+</body>
+</html>

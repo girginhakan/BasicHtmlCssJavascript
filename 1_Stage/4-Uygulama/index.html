@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+
+    <hr>
+    <form action="">
+        <h3>Hesap Bilgileriniz</h3>
+
+        <p>
+            Kullanıcı Adı: <input type="text" name="kullaniciAdi" placeholder="Kullanıcı adınızı giriniz" required>
+        </p>
+
+        <p>
+            Eposta: <input type="email" name="email" placeholder="e-posta giriniz." required>
+        </p>
+
+        <p>
+            Parola: <input type="password" name="sifre" placeholder="şifrenizi giriniz" required>
+        </p>
+
+        <h3>Kişisel Bilgileriniz</h3>
+
+        <p>
+            Ad: <input type="text" name="ad" placeholder="adınızı giriniz" required>
+        </p>
+
+        <p>
+            Soyad: <input type="text" name="soyad" placeholder="soyadınızı giriniz" required>
+        </p>
+
+        <p>
+            Şehir: <select name="sehirler" required>
+                <datalist>
+                    <option value="">Seçiniz</option>
+                    <option value="">Edirne</option>
+                    <option value="">Ankara</option>
+                    <option value="">Çanakkale</option>
+                </datalist>
+            </select>
+
+        <p>
+            <input type="radio" name="cinsiyet"> Erkek
+            <input type="radio" name="cinsiyet"> Kadın
+        </p>
+
+        <p>
+            Hobileriniz:
+            Sinema <input type="checkbox" name="hobiler">
+            Gezmek <input type="checkbox" name="hobiler">
+            Spor <input type="checkbox"   name="hobiler">
+            Kitap <input type="checkbox"  name="hobiler">
+        </p>
+
+        <input type="submit" value="Kaydet">
+        <br>
+        <input type="reset" value="Reset">
+    
+    </form>
+</body>
+
+</html>

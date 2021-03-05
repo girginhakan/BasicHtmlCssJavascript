@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav li{
+   margin-left: 35px; 
+}
+
+.welcome{
+    background-color: #F4B2BE;
+}
+
+.welcome-image{
+    width: 100%;
+}
+
+.welcome-text{
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-text p{
+    margin: 0;
+}
+.section2 img{
+    display: block;
+    margin: auto
+}
+
+.section2 p{
+    text-align: center;
+}
+
+.p-orta{
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.row img{
+    width: 100%;
+}

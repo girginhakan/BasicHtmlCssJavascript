@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#080808;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+p{
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px #000;
+}
+.navbar-collapse{
+    float: right;
+}
+
+.header-img{
+   width: 100%;
+}
+
+.img-text{
+    position: absolute; 
+    font-size: 100px;
+    top: 500px; 
+    left: 300px;
+    color:lightgray; 
+}
+
+.icon-border{
+    border: 1px solid lightgray;
+    padding: 10px;
+   
+}
+
+
+.footer{
+    background-color: red;
+    height: 200px;
+}
